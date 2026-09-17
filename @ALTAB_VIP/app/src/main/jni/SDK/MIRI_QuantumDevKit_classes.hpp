@@ -1,0 +1,38 @@
+#pragma once
+
+// PlayerUnknown's Battle Ground Mobile Lite (0.27.0) SDK Generate by  @MIRI_OWNER
+// Telegram Channel:- @MIRI_CHEAT
+// Generate on Sun Feb 25 13:48:17 2024
+ 
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Classes
+//---------------------------------------------------------------------------
+
+// Class QuantumDevKit.QuantumFirebaseRemoteConfig
+// 0x0068 (0x0090 - 0x0028)
+class UQuantumFirebaseRemoteConfig : public UObject
+{
+public:
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0028(0x0008) MISSED OFFSET
+	TArray<struct FString>                             QueryConfigNamesArray;                                    // 0x0030(0x0010) (ZeroConstructor, Config)
+	unsigned char                                      UnknownData01[0x50];                                      // 0x0040(0x0050) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+        static UClass *pStaticClass = 0;
+        if (!pStaticClass)
+            pStaticClass = UObject::FindClass("Class QuantumDevKit.QuantumFirebaseRemoteConfig");
+		return pStaticClass;
+	}
+
+
+	EQuantumFirebaseRemoteConfigStatus GetStatus();
+	struct FString GetRemoteConfig(const struct FString& ConfigNameToQuery);
+	static class UQuantumFirebaseRemoteConfig* GetInstance();
+};
+
+
+}
+

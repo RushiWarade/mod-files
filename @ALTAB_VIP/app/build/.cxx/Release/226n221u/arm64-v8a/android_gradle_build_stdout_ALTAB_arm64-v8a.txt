@@ -1,0 +1,25 @@
+[arm64-v8a] Compile++      : ALTAB <= MAIN.cpp
+[arm64-v8a] Compile++      : ALTAB <= Tools.cpp
+[arm64-v8a] Compile++      : ALTAB <= ImguiPP.cpp
+[arm64-v8a] Compile++      : ALTAB <= ElfImg.cpp
+[arm64-v8a] Compile++      : ALTAB <= fake_dlfcn.cpp
+[arm64-v8a] Compile++      : ALTAB <= plthook_elf.cpp
+[arm64-v8a] Compile++      : ALTAB <= imgui.cpp
+[arm64-v8a] Compile++      : ALTAB <= imgui_draw.cpp
+[arm64-v8a] Compile++      : ALTAB <= imgui_demo.cpp
+[arm64-v8a] Compile++      : ALTAB <= imgui_tables.cpp
+[arm64-v8a] Compile++      : ALTAB <= imgui_widgets.cpp
+[arm64-v8a] Compile        : ALTAB <= android_native_app_glue.c
+[arm64-v8a] Compile++      : ALTAB <= imgui_impl_android.cpp
+[arm64-v8a] Compile++      : ALTAB <= imgui_impl_opengl3.cpp
+[arm64-v8a] Compile++      : ALTAB <= KittyMemory.cpp
+[arm64-v8a] Compile++      : ALTAB <= MemoryPatch.cpp
+[arm64-v8a] Compile++      : ALTAB <= MemoryBackup.cpp
+[arm64-v8a] Compile++      : ALTAB <= KittyUtils.cpp
+[arm64-v8a] Compile++      : ALTAB <= MIRI_Basic.cpp
+[arm64-v8a] Compile++      : ALTAB <= MIRI_Basic_functions.cpp
+[arm64-v8a] Compile++      : ALTAB <= MIRI_Engine_functions.cpp
+[arm64-v8a] Compile++      : ALTAB <= MIRI_Client_functions.cpp
+[arm64-v8a] Compile++      : ALTAB <= MIRI_CoreUObject_functions.cpp
+[arm64-v8a] Compile++      : ALTAB <= MIRI_ShadowTrackerExtra_functions.cpp
+[arm64-v8a] SharedLibrary  : libALTAB.so

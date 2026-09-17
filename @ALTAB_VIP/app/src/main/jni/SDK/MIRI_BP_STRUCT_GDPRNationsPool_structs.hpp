@@ -1,0 +1,23 @@
+#pragma once
+
+// PlayerUnknown's Battle Ground Mobile Lite (0.27.0) SDK Generate by  @MIRI_OWNER
+// Telegram Channel:- @MIRI_CHEAT
+// Generate on Sun Feb 25 13:48:29 2024
+ 
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Script Structs
+//---------------------------------------------------------------------------
+
+// UserDefinedStruct BP_STRUCT_GDPRNationsPool.BP_STRUCT_GDPRNationsPool
+// 0x0024
+struct FBP_STRUCT_GDPRNationsPool
+{
+	struct FString                                     nation_0_8EBF8A5548C103750D041683156BC922;                // 0x0000(0x0010) (Edit, BlueprintVisible, ZeroConstructor)
+	struct FString                                     code_1_29F0D0124E260A130E30A4BDCFE45E31;                  // 0x0010(0x0010) (Edit, BlueprintVisible, ZeroConstructor)
+	int                                                id_2_197299400AEB67355E7C85A306E4FAD4;                    // 0x0020(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
+};
+
+}
+

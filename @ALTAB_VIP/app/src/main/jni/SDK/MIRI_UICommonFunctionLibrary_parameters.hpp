@@ -1,0 +1,100 @@
+#pragma once
+
+// PlayerUnknown's Battle Ground Mobile Lite (0.27.0) SDK Generate by  @MIRI_OWNER
+// Telegram Channel:- @MIRI_CHEAT
+// Generate on Sun Feb 25 13:48:31 2024
+ 
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.GetAdaptaionUIRect
+struct UUICommonFunctionLibrary_C_GetAdaptaionUIRect_Params
+{
+	int                                                Index;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	int                                                Ret;                                                      // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.LuaCloseHelpTipsPanel
+struct UUICommonFunctionLibrary_C_LuaCloseHelpTipsPanel_Params
+{
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.LuaShowHelpTipsWithPos
+struct UUICommonFunctionLibrary_C_LuaShowHelpTipsWithPos_Params
+{
+	class UWidget*                                     Widget;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	int                                                localizeID;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool                                               IsBattleText;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.SetAdaptationReverse
+struct UUICommonFunctionLibrary_C_SetAdaptationReverse_Params
+{
+	class UWidget*                                     Widget;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.SetAdaptationByOffset
+struct UUICommonFunctionLibrary_C_SetAdaptationByOffset_Params
+{
+	class UWidget*                                     Widget;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.SetAndroidPhoneAdaptation
+struct UUICommonFunctionLibrary_C_SetAndroidPhoneAdaptation_Params
+{
+	class UCanvasPanelSlot*                            Panel;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.SetAdaptation_Lobby
+struct UUICommonFunctionLibrary_C_SetAdaptation_Lobby_Params
+{
+	class UWidget*                                     Widget;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.FormatSecondsToString
+struct UUICommonFunctionLibrary_C_FormatSecondsToString_Params
+{
+	int                                                Seconds;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	struct FText                                       Ret;                                                      // (Parm, OutParm)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.SetSquareFixedScslr
+struct UUICommonFunctionLibrary_C_SetSquareFixedScslr_Params
+{
+	class UWidget*                                     Widget;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.SetAdaptation
+struct UUICommonFunctionLibrary_C_SetAdaptation_Params
+{
+	class UWidget*                                     Widget;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function UICommonFunctionLibrary.UICommonFunctionLibrary_C.SetTabStyle
+struct UUICommonFunctionLibrary_C_SetTabStyle_Params
+{
+	bool                                               isCheck;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UTextBlock*                                  Text;                                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UImage*                                      Icon;                                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	struct FColor                                      onColor;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+	struct FColor                                      offColor;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+}
+

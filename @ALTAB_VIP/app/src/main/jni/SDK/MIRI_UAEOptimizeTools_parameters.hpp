@@ -1,0 +1,70 @@
+#pragma once
+
+// PlayerUnknown's Battle Ground Mobile Lite (0.27.0) SDK Generate by  @MIRI_OWNER
+// Telegram Channel:- @MIRI_CHEAT
+// Generate on Sun Feb 25 13:48:17 2024
+ 
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.UOTStartReportSlatePaint
+struct UUAEOTConsoleCommandObject_UOTStartReportSlatePaint_Params
+{
+};
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.UOTReportUIObject
+struct UUAEOTConsoleCommandObject_UOTReportUIObject_Params
+{
+	struct FString                                     InFileName;                                               // (Parm, ZeroConstructor)
+};
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.UOTReportObjectPath
+struct UUAEOTConsoleCommandObject_UOTReportObjectPath_Params
+{
+	struct FString                                     InFileName;                                               // (Parm, ZeroConstructor)
+};
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.UOTReportObjectCount
+struct UUAEOTConsoleCommandObject_UOTReportObjectCount_Params
+{
+	struct FString                                     InFileName;                                               // (Parm, ZeroConstructor)
+};
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.UOTReportObjectAll
+struct UUAEOTConsoleCommandObject_UOTReportObjectAll_Params
+{
+	struct FString                                     InFileName;                                               // (Parm, ZeroConstructor)
+};
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.UOTReportActor
+struct UUAEOTConsoleCommandObject_UOTReportActor_Params
+{
+	struct FString                                     InFileName;                                               // (Parm, ZeroConstructor)
+};
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.UOTObjectReports
+struct UUAEOTConsoleCommandObject_UOTObjectReports_Params
+{
+	struct FString                                     InFileName;                                               // (Parm, ZeroConstructor)
+};
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.UOTEndReportSlatePaintEnd
+struct UUAEOTConsoleCommandObject_UOTEndReportSlatePaintEnd_Params
+{
+	int                                                Filter;                                                   // (Parm, ZeroConstructor, IsPlainOldData)
+	struct FString                                     Filename;                                                 // (Parm, ZeroConstructor)
+};
+
+// Function UAEOptimizeTools.UAEOTConsoleCommandObject.ReportClassObjectInfo
+struct UUAEOTConsoleCommandObject_ReportClassObjectInfo_Params
+{
+	struct FString                                     ClassName;                                                // (Parm, ZeroConstructor)
+};
+
+}
+

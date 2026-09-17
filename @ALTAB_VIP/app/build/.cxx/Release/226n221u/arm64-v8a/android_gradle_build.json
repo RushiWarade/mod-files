@@ -1,0 +1,67 @@
+{
+  "buildFiles": [
+    "/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/src/main/jni/Android.mk",
+    "/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/macbookpro/Library/Android/sdk/ndk/21.0.6113669/ndk-build",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/src/main/jni/Android.mk",
+      "NDK_APPLICATION_MK\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/src/main/jni/Application.mk",
+      "APP_ABI\u003darm64-v8a",
+      "NDK_ALL_ABIS\u003darm64-v8a",
+      "NDK_DEBUG\u003d0",
+      "APP_PLATFORM\u003dandroid-21",
+      "NDK_OUT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/build/intermediates/cxx/Release/226n221u/obj",
+      "NDK_LIBS_OUT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/build/intermediates/cxx/Release/226n221u/lib",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/macbookpro/Library/Android/sdk/ndk/21.0.6113669/ndk-build",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/src/main/jni/Android.mk",
+    "NDK_APPLICATION_MK\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/src/main/jni/Application.mk",
+    "APP_ABI\u003darm64-v8a",
+    "NDK_ALL_ABIS\u003darm64-v8a",
+    "NDK_DEBUG\u003d0",
+    "APP_PLATFORM\u003dandroid-21",
+    "NDK_OUT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/build/intermediates/cxx/Release/226n221u/obj",
+    "NDK_LIBS_OUT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/build/intermediates/cxx/Release/226n221u/lib",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ALTAB-release-arm64-v8a": {
+      "buildCommandComponents": [
+        "/Users/macbookpro/Library/Android/sdk/ndk/21.0.6113669/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/src/main/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/src/main/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-21",
+        "NDK_OUT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/build/intermediates/cxx/Release/226n221u/obj",
+        "NDK_LIBS_OUT\u003d/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/build/intermediates/cxx/Release/226n221u/lib",
+        "/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/build/intermediates/cxx/Release/226n221u/obj/local/arm64-v8a/libALTAB.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "ALTAB",
+      "output": "/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP/app/build/intermediates/cxx/Release/226n221u/obj/local/arm64-v8a/libALTAB.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "/Users/macbookpro/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/macbookpro/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

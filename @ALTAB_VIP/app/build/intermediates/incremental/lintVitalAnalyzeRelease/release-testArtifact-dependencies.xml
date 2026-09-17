@@ -1,0 +1,8 @@
+<dependencies>
+  <compile
+      roots="/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP@@:app::release">
+    <dependency
+        name="/Users/macbookpro/Downloads/32bitscr/@ALTAB_VIP@@:app::release"
+        simpleName=":"/>
+  </compile>
+</dependencies>
